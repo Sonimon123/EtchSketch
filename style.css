@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+}
+
+.column {
+    width: 100%;
+    margin: auto;
+    flex: auto;
+    align-items: flex-start;
+}
+
+.square {
+    flex: auto;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+.active {
+    background-color: black;
+}
+
+.button {
+    text-align: center;
+    margin: 5px;
+}
